@@ -16,19 +16,16 @@
 }
 .container {
 
-	margin-left: 50px;
-	margin-right: 50px;
+	margin: 1em;
 }
 html {
     font-family: "Lucida Sans", sans-serif;
 }
 .header {
     
-    color: black;
-    padding: 30px;
-    margin-left: 40px;
-    text-align: center;
-    width: 75%;
+    margin: 1em;
+	text-align: center;
+	font-size: 1.75em;
 
 }
 .box {
@@ -42,14 +39,10 @@ html {
 
 p {
 	
-	background-color: #00ff00;
-	width: 90%;
-	padding: 10px;
-	text-align: left;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 30px;
-	font-family: Helvetica;
+	margin-top: 2em;
+	padding: 0.5em 0.5em 1em;
+	
+	text-align: justify;
 	
 }
 /* For mobile phones: */
@@ -89,16 +82,19 @@ p {
 
 section {
 	background-color: gray;
-	padding: 10px 10px 10px 10px;
+	
 	border: 1px solid black;
-	margin: auto;	
+	
 	position: relative;
+	float: left;
+	padding: 0.5em; /*.section-content=margin*/
 }
 
 .offset {
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: -1px;
+  top: -1px;
+  padding: 0.2em;
   border: 1px solid black;
   width: 80px;
   height: 30px;
