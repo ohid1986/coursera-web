@@ -1,0 +1,120 @@
+/*********** Base Styles **************/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.container {
+
+	margin-left: 50px;
+	margin-right: 50px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    
+    color: black;
+    padding: 30px;
+    margin-left: 40px;
+    text-align: center;
+    width: 75%;
+
+}
+.box {
+	
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+p {
+	
+	background-color: #00ff00;
+	width: 90%;
+	padding: 10px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	font-family: Helvetica;
+	
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+section {
+	background-color: gray;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	margin: auto;	
+	position: relative;
+}
+
+.offset {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 1px solid black;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  color: black;
+  font-size: 1.25em;
+
+
+}
+
+.yellow {
+	background-color: yellow;
+}
+.red { 
+	background-color: red;
+ }
+ .purple {
+ 	background-color: pink;
+ }
