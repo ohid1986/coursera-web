@@ -1,0 +1,179 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: gray;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  height: 40px;
+}
+
+
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+  
+}
+#nav-list {
+  background-color: pink;
+}
+/* END HEADER */
+
+#tall-section {
+  color: black;
+  background-color: yellow;
+}
+#main-#content {
+    border-radius: 20px;
+    margin: 15px 15px 15px 15px;
+}
+
+#main-content p {
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#main-content {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+  
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+
+/* END SINGLE CATEGORY PAGE */
+
+
+/********** Large devices only **********/
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+  .container>.navbar-collapse, .container>.navbar-header {
+    margin:auto;
+    margin-bottom: 15px;
+  }
+  .container-fluid> .row {
+      margin-right: 20px;
+      margin-left: 10px;
+      width: 100%;
+      float: left;
+    }
+
+    body {
+      padding:0px;
+    }
+    .navbar-brand {
+    
+    vertical-align: middle;
+  }
+  /* Header */
+ 
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container>.navbar-collapse, .container>.navbar-header {
+    margin:auto;
+    margin-bottom: 15px;
+  }
+  .container-fluid>.row {
+      margin-right: 20px;
+      margin-left: 10px;
+      width: 100%;
+      float: left;
+
+    }
+
+    body {
+      padding:0px;
+    }
+    .navbar-brand {
+    
+    vertical-align: middle;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container-fluid {
+      margin-right: 50px;
+      margin-left: 50px;
+
+    }
+
+    body {
+      padding:0px;
+
+    }
+  /* Header */
+  .navbar-brand {
+    
+    vertical-align: middle;
+  }
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  
+}
+
+
+
+
+
